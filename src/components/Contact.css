@@ -1,0 +1,29 @@
+.Container {
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  background-color: #cc90e0;
+  margin: 2rem auto;
+  padding: 2rem;
+  -webkit-box-shadow: 0.2rem -0.2rem 1rem -0.1rem #0000004f;
+  -moz-box-shadow: 0.2rem -0.2rem 1rem -0.1rem #0000004f;
+  box-shadow: 0.2rem -0.2rem 1rem -0.1rem #0000004f;
+}
+
+.Container > img {
+  width: 25vh;
+  border-radius: 50%;
+}
+
+.Right {
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  height: 20vh;
+  margin: 1rem 0;
+  border-radius: 1rem;
+}

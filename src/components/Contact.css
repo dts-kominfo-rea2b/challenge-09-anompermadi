@@ -12,7 +12,7 @@
   box-shadow: 0.2rem -0.2rem 1rem -0.1rem #0000004f;
 }
 
-.Container > img {
+.Container > .image {
   width: 25vh;
   border-radius: 50%;
 }
